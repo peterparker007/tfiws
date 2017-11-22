@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B046D791DC7B0C600A2326F /* kids.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B046D781DC7B0C600A2326F /* kids.json */; };
+		9B046D7C1DC7B10100A2326F /* KidsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B046D7B1DC7B10100A2326F /* KidsCollectionViewController.swift */; };
+		9B046D7E1DC7B17600A2326F /* KidsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B046D7D1DC7B17600A2326F /* KidsCollectionViewCell.swift */; };
+		9B046D801DC7B4A300A2326F /* DetailedKidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B046D7F1DC7B4A300A2326F /* DetailedKidViewController.swift */; };
+		9B3257BE1DC3DAC80053BEA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3257BD1DC3DAC80053BEA7 /* AppDelegate.swift */; };
+		9B3257C31DC3DAC80053BEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3257C11DC3DAC80053BEA7 /* Main.storyboard */; };
+		9B3257C51DC3DAC80053BEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3257C41DC3DAC80053BEA7 /* Assets.xcassets */; };
+		9B3257C81DC3DAC80053BEA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3257C61DC3DAC80053BEA7 /* LaunchScreen.storyboard */; };
+		9B38F1EC1DC5794600AE21F2 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38F1EB1DC5794600AE21F2 /* DetailedViewController.swift */; };
+		9B38F1EE1DC579A600AE21F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38F1ED1DC579A600AE21F2 /* ViewController.swift */; };
+		9B38F1F01DC5B50500AE21F2 /* partners.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B38F1EF1DC5B50500AE21F2 /* partners.json */; };
+		9B38F1F51DC5BC8C00AE21F2 /* SponsorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38F1F41DC5BC8C00AE21F2 /* SponsorsTableViewController.swift */; };
+		9B38F1F71DC5BD7200AE21F2 /* SponsorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38F1F61DC5BD7200AE21F2 /* SponsorTableViewCell.swift */; };
+		9B38F1F91DC5C29800AE21F2 /* SponsorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B38F1F81DC5C29800AE21F2 /* SponsorCollectionViewCell.swift */; };
+		9B837E261DC3DCB400EE3E4F /* MasterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B837E251DC3DCB400EE3E4F /* MasterCollectionViewController.swift */; };
+		9B837E281DC3DCD100EE3E4F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B837E271DC3DCD100EE3E4F /* CustomCollectionViewCell.swift */; };
+		9B837E2D1DC3F0BA00EE3E4F /* Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B837E2C1DC3F0BA00EE3E4F /* Leader.swift */; };
+		9B837E2F1DC572B600EE3E4F /* leadership_team.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B837E2E1DC572B600EE3E4F /* leadership_team.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B046D781DC7B0C600A2326F /* kids.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kids.json; sourceTree = "<group>"; };
+		9B046D7B1DC7B10100A2326F /* KidsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KidsCollectionViewController.swift; sourceTree = "<group>"; };
+		9B046D7D1DC7B17600A2326F /* KidsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KidsCollectionViewCell.swift; sourceTree = "<group>"; };
+		9B046D7F1DC7B4A300A2326F /* DetailedKidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedKidViewController.swift; sourceTree = "<group>"; };
+		9B3257BA1DC3DAC80053BEA7 /* Demo App For Buckeython Data Download.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo App For Buckeython Data Download.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3257BD1DC3DAC80053BEA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B3257C21DC3DAC80053BEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B3257C41DC3DAC80053BEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B3257C71DC3DAC80053BEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B3257C91DC3DAC80053BEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B38F1EB1DC5794600AE21F2 /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		9B38F1ED1DC579A600AE21F2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B38F1EF1DC5B50500AE21F2 /* partners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = partners.json; sourceTree = "<group>"; };
+		9B38F1F41DC5BC8C00AE21F2 /* SponsorsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorsTableViewController.swift; sourceTree = "<group>"; };
+		9B38F1F61DC5BD7200AE21F2 /* SponsorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsorTableViewCell.swift; sourceTree = "<group>"; };
+		9B38F1F81DC5C29800AE21F2 /* SponsorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SponsorCollectionViewCell.swift; path = ../SponsorCollectionViewCell.swift; sourceTree = "<group>"; };
+		9B837E251DC3DCB400EE3E4F /* MasterCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterCollectionViewController.swift; sourceTree = "<group>"; };
+		9B837E271DC3DCD100EE3E4F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		9B837E2C1DC3F0BA00EE3E4F /* Leader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leader.swift; sourceTree = "<group>"; };
+		9B837E2E1DC572B600EE3E4F /* leadership_team.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = leadership_team.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B3257B71DC3DAC80053BEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B046D7A1DC7B0ED00A2326F /* Sponsors */ = {
+			isa = PBXGroup;
+			children = (
+				9B38F1F81DC5C29800AE21F2 /* SponsorCollectionViewCell.swift */,
+				9B38F1F41DC5BC8C00AE21F2 /* SponsorsTableViewController.swift */,
+				9B38F1F61DC5BD7200AE21F2 /* SponsorTableViewCell.swift */,
+			);
+			name = Sponsors;
+			sourceTree = "<group>";
+		};
+		9B3257B11DC3DAC80053BEA7 = {
+			isa = PBXGroup;
+			children = (
+				9B3257BC1DC3DAC80053BEA7 /* Demo App For Buckeython Data Download */,
+				9B3257BB1DC3DAC80053BEA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B3257BB1DC3DAC80053BEA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B3257BA1DC3DAC80053BEA7 /* Demo App For Buckeython Data Download.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B3257BC1DC3DAC80053BEA7 /* Demo App For Buckeython Data Download */ = {
+			isa = PBXGroup;
+			children = (
+				9B046D7F1DC7B4A300A2326F /* DetailedKidViewController.swift */,
+				9B3257BD1DC3DAC80053BEA7 /* AppDelegate.swift */,
+				9B3257C11DC3DAC80053BEA7 /* Main.storyboard */,
+				9B046D7D1DC7B17600A2326F /* KidsCollectionViewCell.swift */,
+				9B046D7B1DC7B10100A2326F /* KidsCollectionViewController.swift */,
+				9B046D7A1DC7B0ED00A2326F /* Sponsors */,
+				9B38F1F11DC5B76500AE21F2 /* Leaders */,
+				9B38F1ED1DC579A600AE21F2 /* ViewController.swift */,
+				9B3257C41DC3DAC80053BEA7 /* Assets.xcassets */,
+				9B837E2E1DC572B600EE3E4F /* leadership_team.json */,
+				9B38F1EF1DC5B50500AE21F2 /* partners.json */,
+				9B046D781DC7B0C600A2326F /* kids.json */,
+				9B3257C61DC3DAC80053BEA7 /* LaunchScreen.storyboard */,
+				9B3257C91DC3DAC80053BEA7 /* Info.plist */,
+			);
+			path = "Demo App For Buckeython Data Download";
+			sourceTree = "<group>";
+		};
+		9B38F1F11DC5B76500AE21F2 /* Leaders */ = {
+			isa = PBXGroup;
+			children = (
+				9B38F1EB1DC5794600AE21F2 /* DetailedViewController.swift */,
+				9B837E2C1DC3F0BA00EE3E4F /* Leader.swift */,
+				9B837E251DC3DCB400EE3E4F /* MasterCollectionViewController.swift */,
+				9B837E271DC3DCD100EE3E4F /* CustomCollectionViewCell.swift */,
+			);
+			name = Leaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B3257B91DC3DAC80053BEA7 /* Demo App For Buckeython Data Download */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3257CC1DC3DAC80053BEA7 /* Build configuration list for PBXNativeTarget "Demo App For Buckeython Data Download" */;
+			buildPhases = (
+				9B3257B61DC3DAC80053BEA7 /* Sources */,
+				9B3257B71DC3DAC80053BEA7 /* Frameworks */,
+				9B3257B81DC3DAC80053BEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo App For Buckeython Data Download";
+			productName = "Demo App For Buckeython Data Download";
+			productReference = 9B3257BA1DC3DAC80053BEA7 /* Demo App For Buckeython Data Download.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B3257B21DC3DAC80053BEA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Taha Topiwala";
+				TargetAttributes = {
+					9B3257B91DC3DAC80053BEA7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DEKLKBGS66;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B3257B51DC3DAC80053BEA7 /* Build configuration list for PBXProject "Demo App For Buckeython Data Download" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B3257B11DC3DAC80053BEA7;
+			productRefGroup = 9B3257BB1DC3DAC80053BEA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B3257B91DC3DAC80053BEA7 /* Demo App For Buckeython Data Download */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B3257B81DC3DAC80053BEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B38F1F01DC5B50500AE21F2 /* partners.json in Resources */,
+				9B3257C81DC3DAC80053BEA7 /* LaunchScreen.storyboard in Resources */,
+				9B3257C51DC3DAC80053BEA7 /* Assets.xcassets in Resources */,
+				9B3257C31DC3DAC80053BEA7 /* Main.storyboard in Resources */,
+				9B046D791DC7B0C600A2326F /* kids.json in Resources */,
+				9B837E2F1DC572B600EE3E4F /* leadership_team.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B3257B61DC3DAC80053BEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B38F1EE1DC579A600AE21F2 /* ViewController.swift in Sources */,
+				9B046D801DC7B4A300A2326F /* DetailedKidViewController.swift in Sources */,
+				9B837E2D1DC3F0BA00EE3E4F /* Leader.swift in Sources */,
+				9B837E261DC3DCB400EE3E4F /* MasterCollectionViewController.swift in Sources */,
+				9B38F1EC1DC5794600AE21F2 /* DetailedViewController.swift in Sources */,
+				9B837E281DC3DCD100EE3E4F /* CustomCollectionViewCell.swift in Sources */,
+				9B38F1F51DC5BC8C00AE21F2 /* SponsorsTableViewController.swift in Sources */,
+				9B38F1F71DC5BD7200AE21F2 /* SponsorTableViewCell.swift in Sources */,
+				9B046D7C1DC7B10100A2326F /* KidsCollectionViewController.swift in Sources */,
+				9B3257BE1DC3DAC80053BEA7 /* AppDelegate.swift in Sources */,
+				9B38F1F91DC5C29800AE21F2 /* SponsorCollectionViewCell.swift in Sources */,
+				9B046D7E1DC7B17600A2326F /* KidsCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B3257C11DC3DAC80053BEA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3257C21DC3DAC80053BEA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B3257C61DC3DAC80053BEA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B3257C71DC3DAC80053BEA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B3257CA1DC3DAC80053BEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B3257CB1DC3DAC80053BEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B3257CD1DC3DAC80053BEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DEKLKBGS66;
+				INFOPLIST_FILE = "Demo App For Buckeython Data Download/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tahatopiwala.Demo-App-For-Buckeython-Data-Download";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B3257CE1DC3DAC80053BEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DEKLKBGS66;
+				INFOPLIST_FILE = "Demo App For Buckeython Data Download/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tahatopiwala.Demo-App-For-Buckeython-Data-Download";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B3257B51DC3DAC80053BEA7 /* Build configuration list for PBXProject "Demo App For Buckeython Data Download" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3257CA1DC3DAC80053BEA7 /* Debug */,
+				9B3257CB1DC3DAC80053BEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3257CC1DC3DAC80053BEA7 /* Build configuration list for PBXNativeTarget "Demo App For Buckeython Data Download" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3257CD1DC3DAC80053BEA7 /* Debug */,
+				9B3257CE1DC3DAC80053BEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B3257B21DC3DAC80053BEA7 /* Project object */;
+}

@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49ADBF3E1E027D0500026BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADBF3D1E027D0500026BC0 /* AppDelegate.swift */; };
+		49ADBF401E027D0500026BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADBF3F1E027D0500026BC0 /* ViewController.swift */; };
+		49ADBF431E027D0500026BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ADBF411E027D0500026BC0 /* Main.storyboard */; };
+		49ADBF451E027D0500026BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49ADBF441E027D0500026BC0 /* Assets.xcassets */; };
+		49ADBF481E027D0500026BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49ADBF461E027D0500026BC0 /* LaunchScreen.storyboard */; };
+		49ADBF531E027D0500026BC0 /* HonoluluArtMapDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADBF521E027D0500026BC0 /* HonoluluArtMapDemoTests.swift */; };
+		49ADBF601E02800C00026BC0 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADBF5E1E02800C00026BC0 /* JSON.swift */; };
+		49ADBF611E02800C00026BC0 /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 49ADBF5F1E02800C00026BC0 /* PublicArt.json */; };
+		49ADBF651E02826A00026BC0 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ADBF641E02826A00026BC0 /* Artwork.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49ADBF4F1E027D0500026BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49ADBF321E027D0400026BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49ADBF391E027D0500026BC0;
+			remoteInfo = HonoluluArtMapDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49ADBF3A1E027D0500026BC0 /* HonoluluArtMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonoluluArtMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49ADBF3D1E027D0500026BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49ADBF3F1E027D0500026BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49ADBF421E027D0500026BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49ADBF441E027D0500026BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49ADBF471E027D0500026BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49ADBF491E027D0500026BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49ADBF4E1E027D0500026BC0 /* HonoluluArtMapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonoluluArtMapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49ADBF521E027D0500026BC0 /* HonoluluArtMapDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonoluluArtMapDemoTests.swift; sourceTree = "<group>"; };
+		49ADBF541E027D0500026BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49ADBF5E1E02800C00026BC0 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		49ADBF5F1E02800C00026BC0 /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		49ADBF641E02826A00026BC0 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49ADBF371E027D0500026BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ADBF4B1E027D0500026BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49ADBF311E027D0400026BC0 = {
+			isa = PBXGroup;
+			children = (
+				49ADBF3C1E027D0500026BC0 /* HonoluluArtMapDemo */,
+				49ADBF511E027D0500026BC0 /* HonoluluArtMapDemoTests */,
+				49ADBF3B1E027D0500026BC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49ADBF3B1E027D0500026BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49ADBF3A1E027D0500026BC0 /* HonoluluArtMapDemo.app */,
+				49ADBF4E1E027D0500026BC0 /* HonoluluArtMapDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49ADBF3C1E027D0500026BC0 /* HonoluluArtMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				49ADBF631E02825800026BC0 /* Model */,
+				49ADBF621E02825000026BC0 /* Controllers */,
+				49ADBF5D1E027FFB00026BC0 /* support files */,
+				49ADBF3D1E027D0500026BC0 /* AppDelegate.swift */,
+			);
+			path = HonoluluArtMapDemo;
+			sourceTree = "<group>";
+		};
+		49ADBF511E027D0500026BC0 /* HonoluluArtMapDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				49ADBF521E027D0500026BC0 /* HonoluluArtMapDemoTests.swift */,
+				49ADBF541E027D0500026BC0 /* Info.plist */,
+			);
+			path = HonoluluArtMapDemoTests;
+			sourceTree = "<group>";
+		};
+		49ADBF5D1E027FFB00026BC0 /* support files */ = {
+			isa = PBXGroup;
+			children = (
+				49ADBF5E1E02800C00026BC0 /* JSON.swift */,
+				49ADBF5F1E02800C00026BC0 /* PublicArt.json */,
+				49ADBF411E027D0500026BC0 /* Main.storyboard */,
+				49ADBF441E027D0500026BC0 /* Assets.xcassets */,
+				49ADBF461E027D0500026BC0 /* LaunchScreen.storyboard */,
+				49ADBF491E027D0500026BC0 /* Info.plist */,
+			);
+			name = "support files";
+			sourceTree = "<group>";
+		};
+		49ADBF621E02825000026BC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49ADBF3F1E027D0500026BC0 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		49ADBF631E02825800026BC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49ADBF641E02826A00026BC0 /* Artwork.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49ADBF391E027D0500026BC0 /* HonoluluArtMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49ADBF571E027D0500026BC0 /* Build configuration list for PBXNativeTarget "HonoluluArtMapDemo" */;
+			buildPhases = (
+				49ADBF361E027D0500026BC0 /* Sources */,
+				49ADBF371E027D0500026BC0 /* Frameworks */,
+				49ADBF381E027D0500026BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HonoluluArtMapDemo;
+			productName = HonoluluArtMapDemo;
+			productReference = 49ADBF3A1E027D0500026BC0 /* HonoluluArtMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49ADBF4D1E027D0500026BC0 /* HonoluluArtMapDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49ADBF5A1E027D0500026BC0 /* Build configuration list for PBXNativeTarget "HonoluluArtMapDemoTests" */;
+			buildPhases = (
+				49ADBF4A1E027D0500026BC0 /* Sources */,
+				49ADBF4B1E027D0500026BC0 /* Frameworks */,
+				49ADBF4C1E027D0500026BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49ADBF501E027D0500026BC0 /* PBXTargetDependency */,
+			);
+			name = HonoluluArtMapDemoTests;
+			productName = HonoluluArtMapDemoTests;
+			productReference = 49ADBF4E1E027D0500026BC0 /* HonoluluArtMapDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49ADBF321E027D0400026BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Andrew;
+				TargetAttributes = {
+					49ADBF391E027D0500026BC0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DA9X37GALQ;
+						ProvisioningStyle = Automatic;
+					};
+					49ADBF4D1E027D0500026BC0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DA9X37GALQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49ADBF391E027D0500026BC0;
+					};
+				};
+			};
+			buildConfigurationList = 49ADBF351E027D0400026BC0 /* Build configuration list for PBXProject "HonoluluArtMapDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49ADBF311E027D0400026BC0;
+			productRefGroup = 49ADBF3B1E027D0500026BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49ADBF391E027D0500026BC0 /* HonoluluArtMapDemo */,
+				49ADBF4D1E027D0500026BC0 /* HonoluluArtMapDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49ADBF381E027D0500026BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ADBF611E02800C00026BC0 /* PublicArt.json in Resources */,
+				49ADBF481E027D0500026BC0 /* LaunchScreen.storyboard in Resources */,
+				49ADBF451E027D0500026BC0 /* Assets.xcassets in Resources */,
+				49ADBF431E027D0500026BC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ADBF4C1E027D0500026BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49ADBF361E027D0500026BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ADBF601E02800C00026BC0 /* JSON.swift in Sources */,
+				49ADBF401E027D0500026BC0 /* ViewController.swift in Sources */,
+				49ADBF651E02826A00026BC0 /* Artwork.swift in Sources */,
+				49ADBF3E1E027D0500026BC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49ADBF4A1E027D0500026BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ADBF531E027D0500026BC0 /* HonoluluArtMapDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49ADBF501E027D0500026BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49ADBF391E027D0500026BC0 /* HonoluluArtMapDemo */;
+			targetProxy = 49ADBF4F1E027D0500026BC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49ADBF411E027D0500026BC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49ADBF421E027D0500026BC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49ADBF461E027D0500026BC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49ADBF471E027D0500026BC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49ADBF551E027D0500026BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49ADBF561E027D0500026BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49ADBF581E027D0500026BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DA9X37GALQ;
+				INFOPLIST_FILE = HonoluluArtMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongli.HonoluluArtMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49ADBF591E027D0500026BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DA9X37GALQ;
+				INFOPLIST_FILE = HonoluluArtMapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongli.HonoluluArtMapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49ADBF5B1E027D0500026BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DA9X37GALQ;
+				INFOPLIST_FILE = HonoluluArtMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongli.HonoluluArtMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonoluluArtMapDemo.app/HonoluluArtMapDemo";
+			};
+			name = Debug;
+		};
+		49ADBF5C1E027D0500026BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DA9X37GALQ;
+				INFOPLIST_FILE = HonoluluArtMapDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongli.HonoluluArtMapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonoluluArtMapDemo.app/HonoluluArtMapDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49ADBF351E027D0400026BC0 /* Build configuration list for PBXProject "HonoluluArtMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ADBF551E027D0500026BC0 /* Debug */,
+				49ADBF561E027D0500026BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49ADBF571E027D0500026BC0 /* Build configuration list for PBXNativeTarget "HonoluluArtMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ADBF581E027D0500026BC0 /* Debug */,
+				49ADBF591E027D0500026BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49ADBF5A1E027D0500026BC0 /* Build configuration list for PBXNativeTarget "HonoluluArtMapDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49ADBF5B1E027D0500026BC0 /* Debug */,
+				49ADBF5C1E027D0500026BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49ADBF321E027D0400026BC0 /* Project object */;
+}

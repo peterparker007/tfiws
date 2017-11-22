@@ -1,0 +1,100 @@
+{"partners" : [{
+    "category" : "Supporting Sponsors",
+    "sponsors" : [{
+                  "image" : "http://buckeyethon.osu.edu/posts/images/f_img_blank_822011_22536978.gif",
+                  "link" : "http://ohiounion.osu.edu/"
+                  },{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160120180643NC%20logo_stacked_12.18.14[16].jpg",
+                  "link" : "http://www.nationwidechildrens.org"
+                  },{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120151007093528StudentLife_STACKED_WHITE.jpg",
+                  "link" : "http://studentlife.osu.edu"
+                  }]
+}, {
+    "category" : "Color Team Sponsors",
+    "sponsors" : [{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160109160347AD_logo_color_sm.png",
+                  "link" : "http://knowmoresellmore.com/"
+                  },{
+                  "image" : "http://buckeyethon.osu.edu/posts/images/f_img_blank_822011_2274942.jpg",
+                  "link" : "http://us.coca-cola.com/home/"
+                  },{
+                  "image" : "http://buckeyethon.osu.edu/posts/images/f_img_blank_120150125231627Huntington_logo.png",
+                  "link" : "https://www.huntington.com/"
+                  },{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160120002953NandEagle%20Vert%20OYS%203C_OSU.jpg",
+                  "link" : "https://www.nationwide.com"
+                  },{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160109195545Cardinal%20Health%20Logo.jpg",
+                  "link" : "http://www.cardinalhealth.com/en.html"
+                  },{
+                  "image" : "http://buckeyethon.osu.edu/posts/images/f_img_blank_120150125224940American%20Electric%20Power.jpg",
+                  "link" : "http://www.aep.com/"
+                  }]
+}, {
+    "category" : "Reception Sponsor",
+    "sponsors" : [{
+                  "image" : "http://buckeyethon.osu.edu/posts/images/f_img_blank_120150125233705Cardinal-Transportation.png",
+                  "link" : "http://cardinaltrans.com/"
+                  }]
+}, {
+    "category" : "DJ Sponsor",
+    "sponsors" : [{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160109161032478423_307424056010264_1121530085_o.jpg",
+                  "link" : "http://dancedoctorsdj.com/Home.html"
+                  }]
+}, {
+    "category" : "Meal Sponsors",
+    "sponsors" : [{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160113163056Donatos_logo_2013.jpg",
+                  "link" : "http://www.donatos.com"
+                  },{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160113163224DF%20Logo[1].jpg",
+                  "link" : "http://dirtyfrankscolumbus.com"
+                  },{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160113163408OrderUp.jpg",
+                  "link" : "https://orderup.com/some/columbus/delivery/featured"
+                  }]
+}, {
+    "category" : "Reception Sponsor",
+    "sponsors" : [{
+                  "image" : "http://buckeyethon.osu.edu/posts/images/f_img_blank_822011_2274942.jpg",
+                  "link" : "http://us.coca-cola.com/home/"
+                  }]
+}, {
+    "category" : "Hour Sponsors",
+    "sponsors" : [{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120151026110622CCLogoVert.jpg",
+                  "link" : "http://www.crimsoncup.com"
+                  },{
+                  "image" : "http://buckeyethon.osu.edu/posts/images/f_img_blank_120140205202239Insomnia-Cookies.jpg",
+                  "link" : "https://insomniacookies.com/"
+                  },{
+                  "image" : "http://buckeyethon.osu.edu/posts/images/f_img_blank_120150125225030Aveda%20Columbus.jpg",
+                  "link" : "http://www.avedacolumbus.com/"
+                  },{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160113164532Chuys.jpg",
+                  "link" : "https://www.chuys.com/locations/columbus/columbus"
+                  },{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120151102113440Kind-Logo.jpg",
+                  "link" : "http://www.kindsnacks.com"
+                  },{
+                  "image" : "http://buckeyethon.osu.edu/posts/images/f_img_blank_120130205150449Qdoba%20MG%20brn.jpg",
+                  "link" : "http://www.qdoba.com/"
+                  }]
+}, {
+    "category" : "Addtional In-Kind Sponsors",
+    "sponsors" : [{
+                  "image" : "http://buckeyethon.osu.edu/posts/images/f_img_blank_120150125234007n-moes.jpg",
+                  "link" : "http://www.moes.com/"
+                  },{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160201160007zoomph-red-web%20copy.jpg",
+                  "link" : "https://zoomph.com/"
+                  },{
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160127120950chipotle.png",
+                  "link" : "http://chipotle.com"
+                  }, {
+                  "image" : "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201602011234492Degrees.png",
+                  "link" : "http://twodegreesfood.com/"
+                  }]
+}]}

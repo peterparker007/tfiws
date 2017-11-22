@@ -1,0 +1,121 @@
+{
+	"leaders" : [{
+		"email" : "stranges.25@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111343391397_BuckeyethonLeadershipTeam_GB_10.jpg", 
+		"name" : "Anthony Stranges",
+		"role" : "President"
+	},{
+		"email" : "rieger.48@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111345371397_BuckeyethonLeadershipTeam_GB_14.jpg",
+		"name" : "Abby Rieger",
+		"role" : "Executive Vice President"
+	},{
+		"email" : "thomson.109@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111351351397_BuckeyethonLeadershipTeam_GB_36.jpg",
+		"name" : "Courtney Thomson",
+		"role" : "VP of Advancement"
+	},{
+		"email" : "ryan.339@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111350561397_BuckeyethonLeadershipTeam_GB_35.jpg",
+		"name" : "Evan Ryan",
+		"role" : "VP of Finance"
+	},{
+		"email" : "kuharich.3@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111349361397_BuckeyethonLeadershipTeam_GB_29.jpg",
+		"name" : "Elissa Kuharich",
+		"role" : "VP of Membership"
+	},{
+		"email" : "quinn.342@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111350301397_BuckeyethonLeadershipTeam_GB_33.jpg",
+		"name" : "Colin Quinn",
+		"role" : "VP of Outreach and Engagement"
+	},{
+		"email" : "vandersluis.3@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160602141210Ari%20Vandersluis_Vice%20President%20of%20Programming.jpg",
+		"name" : "Ari Vandersluis",
+		"role" : "VP of Programming"
+	},{
+		"email" : "staats.42@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160602141351Hannah%20Staats_Director%20of%20Marketing%20and%20Communications.jpg",
+		"name" : "Hannah Staats",
+		"role" : "Director of Marketing and Communications",
+		"detail" : "Advancement Branch"
+	},{
+		"email" : "pucillo.4@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160602141306Carolyn%20Pucillo_Director%20of%20Development.jpg",
+		"name" : "Carolyn Pucillo",
+		"role" : "Director of Development",
+		"detail" : "Advancement Branch"
+	},{
+		"email" : "chance.48@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111350041397_BuckeyethonLeadershipTeam_GB_31.jpg",
+		"name" : "Bethany Chance",
+		"role" : "Director of High School Events",
+		"detail" : "Advancement Branch"
+	},{
+		"email" : "boor.18@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111348081397_BuckeyethonLeadershipTeam_GB_19.jpg",
+		"name" : "Anna Boor",
+		"role" : "Director of Business Operations",
+		"detail" : "Finance Branch"
+	},{
+		"email" : "brosky.7@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111344271397_BuckeyethonLeadershipTeam_GB_12.jpg",
+		"name" : "Hannah Brosky",
+		"role" : "Director of Assessments",
+		"detail" : "Finance Branch"
+	},{
+		"email" : "nerderman.9@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111348541397_BuckeyethonLeadershipTeam_GB_23.jpg",
+		"name" : "Brooke Nerderman",
+		"role" : "Director of Membership Development",
+		"detail" : "Membership Branch"
+	},{
+		"email" : "miller.7236@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160602141526Tracy%20Miller_Director%20of%20Membership%20Selection%20and%20Education.jpg",
+		"name" : "Tracy Miller",
+		"role" : "Director of Membership Selections and Education",
+		"detail" : "Membership Branch"
+	},{
+		"email" : "willis.482@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160602141444Taylor%20Willis_Director%20of%20Family%20Relations.jpg",
+		"name" : "Taylor Willis",
+		"role" : "Director of Family Relations",
+		"detail" : "Outreach and Engagement Branch"
+	},{
+		"email" : "feldman.167@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111347041397_BuckeyethonLeadershipTeam_GB_17.jpg",
+		"name" : "Liz Feldman",
+		"role" : "Director of Fundraising",
+		"detail" : "Outreach and Engagement Branch"
+	},{
+		"email" : "novinc.4@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160602141647Rachel%20Novinc_Director%20of%20Campus%20Engagement.jpg",
+		"name" : "Rachel Novinc",
+		"role" : "Director of Campus Engagement",
+		"detail" : "Outreach and Engagement Branch"
+	},{
+		"email" : "saleme.1@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111346361397_BuckeyethonLeadershipTeam_GB_15.jpg",
+		"name" : "Emily Saleme",
+		"role" : "Director of Events",
+		"detail": "Programming Branch"
+	},{
+		"email" : "hertzog.3@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_1201603111348311397_BuckeyethonLeadershipTeam_GB_21.jpg",
+		"name" : "Evan Hertzog",
+		"role": "Director of Dance Marathon",
+		"detail": "Programming Branch"
+	},{
+		"email" : "bogard.47@osu.edu",
+		"image": "https://buckeyethon.osu.edu/posts/images/f_img_blank_120160602141608Maddie%20Bogard_Executive%20Secretary.jpg",
+		"name" : "Maddie Bogard",
+		"role" : "Executive Secretary"
+	},{
+		"email" : "alonso.2@osu.edu",
+		"image": "http://buckeyethon.osu.edu/posts/images/f_img_blank_120141123161718BuckeyethonHeadshots-2.jpg",
+		"name" : "Felix Alonso",
+		"role" : "Advisor to BuckeyeThon",
+		"detail" : "Associate Director of Student Philanthropy"
+	}]
+}

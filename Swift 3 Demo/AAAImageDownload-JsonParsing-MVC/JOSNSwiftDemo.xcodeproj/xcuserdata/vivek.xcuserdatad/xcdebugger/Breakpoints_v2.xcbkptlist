@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JOSNSwiftDemo/ViewController.swift"
+            timestampString = "506845510.301768"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "downloadJsonWithURL()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JOSNSwiftDemo.ViewController.downloadJsonWithURL () -&gt; ()"
+                  moduleName = "JOSNSwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivek/Downloads/MVC-with-JSON-object-Demo-143c454d427e082fdfd8a4ceca9d8ce8b37c2ba1/JOSNSwiftDemo/ViewController.swift"
+                  timestampString = "506845514.683986"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "91">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JOSNSwiftDemo.ViewController.downloadJsonWithURL () -&gt; ()"
+                  moduleName = "JOSNSwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivek/Downloads/MVC-with-JSON-object-Demo-143c454d427e082fdfd8a4ceca9d8ce8b37c2ba1/JOSNSwiftDemo/ViewController.swift"
+                  timestampString = "506845514.685716"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "638">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JOSNSwiftDemo.ViewController.(downloadJsonWithURL () -&gt; ()).(closure #1)"
+                  moduleName = "JOSNSwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivek/Downloads/MVC-with-JSON-object-Demo-143c454d427e082fdfd8a4ceca9d8ce8b37c2ba1/JOSNSwiftDemo/ViewController.swift"
+                  timestampString = "506845514.687785"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

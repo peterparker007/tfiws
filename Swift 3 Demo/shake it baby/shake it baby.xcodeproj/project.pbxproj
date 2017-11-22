@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46FD29891E12278700D3CC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD29881E12278700D3CC6C /* AppDelegate.swift */; };
+		46FD298B1E12278700D3CC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD298A1E12278700D3CC6C /* ViewController.swift */; };
+		46FD298E1E12278700D3CC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FD298C1E12278700D3CC6C /* Main.storyboard */; };
+		46FD29901E12278700D3CC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FD298F1E12278700D3CC6C /* Assets.xcassets */; };
+		46FD29931E12278700D3CC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FD29911E12278700D3CC6C /* LaunchScreen.storyboard */; };
+		46FD299E1E12278700D3CC6C /* shake_it_babyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD299D1E12278700D3CC6C /* shake_it_babyTests.swift */; };
+		46FD29A91E12278700D3CC6C /* shake_it_babyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD29A81E12278700D3CC6C /* shake_it_babyUITests.swift */; };
+		46FD29BA1E12289000D3CC6C /* guns.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46FD29B71E12289000D3CC6C /* guns.mp3 */; };
+		46FD29BB1E12289000D3CC6C /* cold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46FD29B81E12289000D3CC6C /* cold.mp3 */; };
+		46FD29BC1E12289000D3CC6C /* justin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46FD29B91E12289000D3CC6C /* justin.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46FD299A1E12278700D3CC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46FD297D1E12278600D3CC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FD29841E12278600D3CC6C;
+			remoteInfo = "shake it baby";
+		};
+		46FD29A51E12278700D3CC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46FD297D1E12278600D3CC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FD29841E12278600D3CC6C;
+			remoteInfo = "shake it baby";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46FD29851E12278700D3CC6C /* shake it baby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shake it baby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FD29881E12278700D3CC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46FD298A1E12278700D3CC6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46FD298D1E12278700D3CC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46FD298F1E12278700D3CC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46FD29921E12278700D3CC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46FD29941E12278700D3CC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FD29991E12278700D3CC6C /* shake it babyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shake it babyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FD299D1E12278700D3CC6C /* shake_it_babyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shake_it_babyTests.swift; sourceTree = "<group>"; };
+		46FD299F1E12278700D3CC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FD29A41E12278700D3CC6C /* shake it babyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shake it babyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FD29A81E12278700D3CC6C /* shake_it_babyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shake_it_babyUITests.swift; sourceTree = "<group>"; };
+		46FD29AA1E12278700D3CC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FD29B71E12289000D3CC6C /* guns.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guns.mp3; sourceTree = "<group>"; };
+		46FD29B81E12289000D3CC6C /* cold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cold.mp3; sourceTree = "<group>"; };
+		46FD29B91E12289000D3CC6C /* justin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = justin.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46FD29821E12278600D3CC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FD29961E12278700D3CC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FD29A11E12278700D3CC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46FD297C1E12278600D3CC6C = {
+			isa = PBXGroup;
+			children = (
+				46FD29871E12278700D3CC6C /* shake it baby */,
+				46FD299C1E12278700D3CC6C /* shake it babyTests */,
+				46FD29A71E12278700D3CC6C /* shake it babyUITests */,
+				46FD29861E12278700D3CC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46FD29861E12278700D3CC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46FD29851E12278700D3CC6C /* shake it baby.app */,
+				46FD29991E12278700D3CC6C /* shake it babyTests.xctest */,
+				46FD29A41E12278700D3CC6C /* shake it babyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46FD29871E12278700D3CC6C /* shake it baby */ = {
+			isa = PBXGroup;
+			children = (
+				46FD29881E12278700D3CC6C /* AppDelegate.swift */,
+				46FD298A1E12278700D3CC6C /* ViewController.swift */,
+				46FD29B61E12289000D3CC6C /* Sounds */,
+				46FD298C1E12278700D3CC6C /* Main.storyboard */,
+				46FD298F1E12278700D3CC6C /* Assets.xcassets */,
+				46FD29911E12278700D3CC6C /* LaunchScreen.storyboard */,
+				46FD29941E12278700D3CC6C /* Info.plist */,
+			);
+			path = "shake it baby";
+			sourceTree = "<group>";
+		};
+		46FD299C1E12278700D3CC6C /* shake it babyTests */ = {
+			isa = PBXGroup;
+			children = (
+				46FD299D1E12278700D3CC6C /* shake_it_babyTests.swift */,
+				46FD299F1E12278700D3CC6C /* Info.plist */,
+			);
+			path = "shake it babyTests";
+			sourceTree = "<group>";
+		};
+		46FD29A71E12278700D3CC6C /* shake it babyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46FD29A81E12278700D3CC6C /* shake_it_babyUITests.swift */,
+				46FD29AA1E12278700D3CC6C /* Info.plist */,
+			);
+			path = "shake it babyUITests";
+			sourceTree = "<group>";
+		};
+		46FD29B61E12289000D3CC6C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				46FD29B71E12289000D3CC6C /* guns.mp3 */,
+				46FD29B81E12289000D3CC6C /* cold.mp3 */,
+				46FD29B91E12289000D3CC6C /* justin.mp3 */,
+			);
+			name = Sounds;
+			path = ../../../../../../../../../Desktop/Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46FD29841E12278600D3CC6C /* shake it baby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FD29AD1E12278700D3CC6C /* Build configuration list for PBXNativeTarget "shake it baby" */;
+			buildPhases = (
+				46FD29811E12278600D3CC6C /* Sources */,
+				46FD29821E12278600D3CC6C /* Frameworks */,
+				46FD29831E12278600D3CC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shake it baby";
+			productName = "shake it baby";
+			productReference = 46FD29851E12278700D3CC6C /* shake it baby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46FD29981E12278700D3CC6C /* shake it babyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FD29B01E12278700D3CC6C /* Build configuration list for PBXNativeTarget "shake it babyTests" */;
+			buildPhases = (
+				46FD29951E12278700D3CC6C /* Sources */,
+				46FD29961E12278700D3CC6C /* Frameworks */,
+				46FD29971E12278700D3CC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FD299B1E12278700D3CC6C /* PBXTargetDependency */,
+			);
+			name = "shake it babyTests";
+			productName = "shake it babyTests";
+			productReference = 46FD29991E12278700D3CC6C /* shake it babyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46FD29A31E12278700D3CC6C /* shake it babyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FD29B31E12278700D3CC6C /* Build configuration list for PBXNativeTarget "shake it babyUITests" */;
+			buildPhases = (
+				46FD29A01E12278700D3CC6C /* Sources */,
+				46FD29A11E12278700D3CC6C /* Frameworks */,
+				46FD29A21E12278700D3CC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FD29A61E12278700D3CC6C /* PBXTargetDependency */,
+			);
+			name = "shake it babyUITests";
+			productName = "shake it babyUITests";
+			productReference = 46FD29A41E12278700D3CC6C /* shake it babyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46FD297D1E12278600D3CC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sergio Díaz Navarro";
+				TargetAttributes = {
+					46FD29841E12278600D3CC6C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5D6S47J43L;
+						ProvisioningStyle = Automatic;
+					};
+					46FD29981E12278700D3CC6C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46FD29841E12278600D3CC6C;
+					};
+					46FD29A31E12278700D3CC6C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46FD29841E12278600D3CC6C;
+					};
+				};
+			};
+			buildConfigurationList = 46FD29801E12278600D3CC6C /* Build configuration list for PBXProject "shake it baby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46FD297C1E12278600D3CC6C;
+			productRefGroup = 46FD29861E12278700D3CC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46FD29841E12278600D3CC6C /* shake it baby */,
+				46FD29981E12278700D3CC6C /* shake it babyTests */,
+				46FD29A31E12278700D3CC6C /* shake it babyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46FD29831E12278600D3CC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FD29BC1E12289000D3CC6C /* justin.mp3 in Resources */,
+				46FD29BA1E12289000D3CC6C /* guns.mp3 in Resources */,
+				46FD29931E12278700D3CC6C /* LaunchScreen.storyboard in Resources */,
+				46FD29BB1E12289000D3CC6C /* cold.mp3 in Resources */,
+				46FD29901E12278700D3CC6C /* Assets.xcassets in Resources */,
+				46FD298E1E12278700D3CC6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FD29971E12278700D3CC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FD29A21E12278700D3CC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46FD29811E12278600D3CC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FD298B1E12278700D3CC6C /* ViewController.swift in Sources */,
+				46FD29891E12278700D3CC6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FD29951E12278700D3CC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FD299E1E12278700D3CC6C /* shake_it_babyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FD29A01E12278700D3CC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FD29A91E12278700D3CC6C /* shake_it_babyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46FD299B1E12278700D3CC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46FD29841E12278600D3CC6C /* shake it baby */;
+			targetProxy = 46FD299A1E12278700D3CC6C /* PBXContainerItemProxy */;
+		};
+		46FD29A61E12278700D3CC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46FD29841E12278600D3CC6C /* shake it baby */;
+			targetProxy = 46FD29A51E12278700D3CC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46FD298C1E12278700D3CC6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FD298D1E12278700D3CC6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46FD29911E12278700D3CC6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FD29921E12278700D3CC6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46FD29AB1E12278700D3CC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46FD29AC1E12278700D3CC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46FD29AE1E12278700D3CC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5D6S47J43L;
+				INFOPLIST_FILE = "shake it baby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sdn.shake-it-baby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46FD29AF1E12278700D3CC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5D6S47J43L;
+				INFOPLIST_FILE = "shake it baby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sdn.shake-it-baby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46FD29B11E12278700D3CC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "shake it babyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sdn.shake-it-babyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shake it baby.app/shake it baby";
+			};
+			name = Debug;
+		};
+		46FD29B21E12278700D3CC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "shake it babyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sdn.shake-it-babyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shake it baby.app/shake it baby";
+			};
+			name = Release;
+		};
+		46FD29B41E12278700D3CC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "shake it babyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sdn.shake-it-babyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "shake it baby";
+			};
+			name = Debug;
+		};
+		46FD29B51E12278700D3CC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "shake it babyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sdn.shake-it-babyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "shake it baby";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46FD29801E12278600D3CC6C /* Build configuration list for PBXProject "shake it baby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FD29AB1E12278700D3CC6C /* Debug */,
+				46FD29AC1E12278700D3CC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46FD29AD1E12278700D3CC6C /* Build configuration list for PBXNativeTarget "shake it baby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FD29AE1E12278700D3CC6C /* Debug */,
+				46FD29AF1E12278700D3CC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46FD29B01E12278700D3CC6C /* Build configuration list for PBXNativeTarget "shake it babyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FD29B11E12278700D3CC6C /* Debug */,
+				46FD29B21E12278700D3CC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46FD29B31E12278700D3CC6C /* Build configuration list for PBXNativeTarget "shake it babyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FD29B41E12278700D3CC6C /* Debug */,
+				46FD29B51E12278700D3CC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46FD297D1E12278600D3CC6C /* Project object */;
+}
